@@ -21,6 +21,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     min-width: 80.37em;
     background: url('../img/background.png');
+    display: flex;
+    flex-direction: column;
 }
 .header__top {
     min-width: 80.37em;
@@ -183,4 +185,102 @@ body {
     background-image: -webkit-linear-gradient( 90deg, rgb(92,92,92) 0%, rgb(58,58,58) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(92,92,92) 0%, rgb(58,58,58) 100%);
     border-radius: 0 10px 10px 10px;
+}
+
+.select__country {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 62.5em;
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+}
+.items_country {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    margin-left: 8px;
+    color: #000;
+    font-size: 12px;
+    font-family: "Trebuchet MS";
+    text-transform: uppercase;
+    &:first-child {
+        margin-left: 0;
+    }
+}
+.main_country {
+    margin-left: 11px;
+}
+
+.list_main_menu {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    height: 772px;
+}
+.head_name {
+    font-size: 12px;
+    font-family: "Arial";
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main_menu_items {
+    margin-left: 0.87em;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-family: "Arial";
+    margin-top: 5px;
+}
+.theme_name_margin {
+    margin-top: 15px;
+}
+.aside__wrapper {
+    border: 1px solid green;
+    display: flex;
+    width: 62.5em;
+    margin-top: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.main_wrapper {
+    width: 62.5em;
+    display: flex;
+}
+.block__main {
+    height: 413px;
+
+}
+.block__main_items {
+    margin-top: 10px;
+    display: flex;
+    &:first-child {
+        margin-top: 0;
+    }
+}
+.theme_main_girl {
+    margin-left: 1.37em;
+    width: 34.37em;
+    height: 25.75em;
+}
+.theme_main_top {
+    margin-left: 1.37em;
+}
+
+
+.block__sale {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 50.75em;
+    border: 1px solid rgb(231, 0, 34);
+    border-radius: 10px;
+    background-image: -moz-linear-gradient( 90deg, rgb(71,10,19) 0%, rgb(145,47,61) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(71,10,19) 0%, rgb(145,47,61) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(71,10,19) 0%, rgb(145,47,61) 100%);
+    box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, 0.6);
 }
