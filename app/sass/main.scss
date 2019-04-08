@@ -18,10 +18,8 @@ body {
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 80.37em;
+    min-width: 80.37em; 
     background: url('../img/background.png');
 }
 .wrapper__wrap {
@@ -30,7 +28,6 @@ body {
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
 }
 
 .header__top {
@@ -250,10 +247,8 @@ body {
     display: flex;
     width: 11em;
     margin-top: 11px;
-    border: 1px solid red; 
 }
 .main_wrapper {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     width: 51.2em;
@@ -274,6 +269,7 @@ body {
 .block__sale {
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
     align-items: center;
     height: 40px;
     width: 50.75em;
@@ -297,17 +293,68 @@ body {
 }
 .block__sale_percent {
     height: 83px;
+    z-index: 100;
 }
 .block__horizont {
     display: flex;
+    margin-top: 14px;
     justify-content: space-between;
-    border: 1px solid green;
     height: 142px;
     width: 50.62em;
     margin-left: auto;
     margin-right: auto;
+    z-index: 0;
+}
+.block__horizont_items {
+    background: url('../img/horizont_bg.png') no-repeat;
 }
 .block__horizont_second {
-    
+    background: url('../img/horizont_bg.png') no-repeat;
+    display: block;
+    position: relative;
+    margin-top: 24px;
+    width: 51.2em;
 }
-  
+.block__horizont_second_items{
+    margin-top: 60px;
+    margin-bottom: 28px;
+    margin-left: 18px;
+}
+.block_horizont_lider {
+    height: 48px;
+    position: absolute;
+    margin-left: 35px;
+}
+.block__horizont_third {
+    background: url('../img/horizont_bg.png') no-repeat;
+    display: block;
+    position: relative;
+    width: 51.2em;
+    margin-top: 12px;
+}
+.block__horizont_third_items {
+    margin-top: 60px;
+    margin-bottom: 28px;
+    margin-left: 18px;
+}
+.block__horizont_fourth {
+    background: url('../img/horizont_bg_fourth.png') no-repeat;
+    border: 1px solid #dfdfdf;
+    display: block;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 105px;
+}
+.block__horizont_text {
+    margin-left: 18px;
+    height: 30px;
+    font-size: 14px;
+    font-family: "Arial";
+    color: #939393;
+    text-transform: uppercase;
+}
+.block__horizont_fourth_items {
+    margin-left: 18px;
+    margin-top: 16px;
+    margin-bottom: 34px;
+}
