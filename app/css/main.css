@@ -348,4 +348,63 @@ body {
   margin-top: 16px;
   margin-bottom: 34px; }
 
+.block__foot {
+  background: #d2d2d2 url("../img/footer_top.jpg");
+  min-width: 80.37em;
+  height: 80px;
+  position: relative; }
+
+.block__foot_text {
+  font-size: 14px;
+  font-family: "Trebuchet MS";
+  color: #747474;
+  text-transform: uppercase;
+  text-shadow: 0.799px 0.602px 0px rgba(255, 255, 255, 0.65);
+  position: absolute;
+  top: 12px;
+  left: 232px; }
+
+.block__foot_number {
+  font-size: 36px;
+  font-family: "Trebuchet MS";
+  color: #737373;
+  text-transform: uppercase;
+  text-shadow: 0.799px 0.602px 0px rgba(255, 255, 255, 0.65);
+  position: absolute;
+  top: 32px;
+  left: 300px; }
+
+.footer {
+  min-width: 80.37em;
+  height: 393px;
+  background: url("../img/footer_bottom.png"); }
+
+.footer_bottom_text {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  font-family: "Trebuchet MS";
+  color: #55676c;
+  text-transform: uppercase; }
+
+.footer_list_left {
+  border: 1px solid red;
+  width: 192px;
+  height: 250px; }
+
+.footer_list_h2 {
+  font-size: 12px;
+  font-family: "Arial";
+  color: black;
+  text-transform: uppercase; }
+
+.footer_list_item {
+  list-style-type: none;
+  margin-left: 12px;
+  font-size: 12px;
+  font-family: "Arial"; }
+  .footer_list_item a {
+    text-decoration: none;
+    color: #000; }
+
 /*# sourceMappingURL=app/css/main.css.map */
