@@ -18,6 +18,8 @@ body {
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 80.37em;
     background: url('../img/background.png');
