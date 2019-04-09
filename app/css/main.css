@@ -385,10 +385,9 @@ body {
 
 .footer__wrapper_info {
   display: flex;
-  width: 62.5em;
+  width: 64em;
   margin-left: auto;
-  margin-right: auto;
-  border: 1px solid red; }
+  margin-right: auto; }
 
 .footer_list_left {
   margin-top: 22px;
@@ -436,7 +435,7 @@ body {
 .footer__contacts_wrapper {
   margin-left: 25px;
   margin-top: 22px;
-  width: 253px;
+  width: 265px;
   height: 264px; }
 
 .footer_contacts_block {
@@ -469,10 +468,7 @@ body {
   margin-top: 11px; }
 
 .footer_social_icons {
-  margin-left: 6px; }
-
-.icons_theme {
-  margin-left: -3px; }
+  margin-left: 2px; }
 
 .footer_bottom_text {
   display: flex;
