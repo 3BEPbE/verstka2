@@ -123,7 +123,6 @@ body {
   width: 186px;
   height: 42px;
   border-radius: 10px;
-  margin-left: 1.56em;
   background: url("../img/header/download.png");
   font-size: 14px;
   font-family: "Trebuchet MS";
@@ -132,6 +131,9 @@ body {
   line-height: 1.2;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
   text-decoration: none; }
+
+.block_download_header {
+  margin-left: 1.56em; }
 
 .block_info {
   width: 185px;
@@ -375,20 +377,15 @@ body {
   left: 300px; }
 
 .footer {
+  display: flex;
+  flex-wrap: wrap;
   min-width: 80.37em;
   height: 393px;
   background: url("../img/footer_bottom.png"); }
 
-.footer_bottom_text {
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 12px;
-  font-family: "Trebuchet MS";
-  color: #55676c;
-  text-transform: uppercase; }
-
 .footer_list_left {
-  border: 1px solid red;
+  margin-top: 22px;
+  margin-left: 140px;
   width: 192px;
   height: 250px; }
 
@@ -405,6 +402,86 @@ body {
   font-family: "Arial"; }
   .footer_list_item a {
     text-decoration: none;
-    color: #000; }
+    color: #55676c; }
+  .footer_list_item:first-child {
+    margin-top: 5px; }
+
+.footer_list_center_left {
+  margin-top: 22px;
+  height: 250px;
+  width: 154px; }
+
+.footer_list_center_right {
+  margin-top: 22px;
+  margin-left: 35px;
+  height: 250px;
+  width: 154px; }
+
+.footer_info {
+  margin-top: 22px;
+  width: 240px;
+  height: 215px; }
+
+.footer_info_text {
+  font-size: 12px;
+  font-family: "Arial";
+  color: #55676c; }
+
+.footer__contacts_wrapper {
+  margin-left: 25px;
+  margin-top: 22px;
+  width: 253px;
+  height: 264px; }
+
+.footer_contacts_block {
+  width: 253px;
+  height: 142px;
+  background: url("../img/footer_info_bg.png"); }
+
+.contacts_block_img {
+  margin-left: 42px; }
+  .contacts_block_img:first-child {
+    margin-top: 33px; }
+
+.footer_download {
+  margin-top: 11px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.footer_text {
+  margin-top: 11px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #55676c; }
+
+.footer__line {
+  height: 1px;
+  width: 100%;
+  background: #939393; }
+
+.footer_social {
+  margin-top: 11px; }
+
+.footer_social_icons {
+  margin-left: 6px; }
+
+.icons_theme {
+  margin-left: -3px; }
+
+.footer_bottom_text {
+  display: flex;
+  justify-content: space-around;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.bottom_text_theme {
+  margin-top: 5px;
+  margin-left: 44px;
+  margin-right: 43px;
+  font-size: 12px;
+  font-family: "Trebuchet MS";
+  color: #55676c;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=app/css/main.css.map */
